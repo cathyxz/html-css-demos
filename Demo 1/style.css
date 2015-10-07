@@ -1,34 +1,14 @@
 /* CSS selectors by html tag */
-html, body {
-  margin: 0;
-  padding:0;
-  height: 100%;
-}
 
-html {
-  height: 100%;
+h1, p {
+  color: blue;
+  text-align: center;
+  font-family: 'Oswald', Arial, sans-serif;
 }
 
 body {
   top: 0px;
   min-height: 100vh;
-}
-
-h1, p {
-  color: white;
-  text-align: center;
-  font-family: 'Oswald', Arial, sans-serif;
-}
-
-/* CSS selectors by class */
-.container {
-  top: 0;
-  left: 0;
-  width: 100%;
-  min-height: 100vh; /* Viewport Height */
-  background-image: url("http://placekitten.com/1024/800");
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 
 .img-circle {
@@ -37,8 +17,32 @@ h1, p {
   border-radius: 50%;
 }
 
+/* CSS selectors by class */
+.container {
+  top: 0;
+  left: 0;
+  width: 100%;
+  min-height: 100vh; /* Viewport Height */
+}
+
+.kitty-background {
+  background-image: url("http://placekitten.com/1024/800");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .center {
   display: block;
   margin-left: auto;
   margin-right: auto;
+}
+
+html, body {
+  margin: 0;
+  padding:0;
+  height: 100%;
+}
+
+html {
+  height: 100%;
 }
